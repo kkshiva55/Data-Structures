@@ -1,0 +1,96 @@
+/*
+
+Name: Shiva.K
+Date: 23-10-2022
+Description: Inverted Search
+
+Sample output: -->
+
+emertxe@ubuntu:~/ECEP/Projects/DS$ make
+cc    -c -o file_linked_list.o file_linked_list.c
+cc    -c -o search_database.o search_database.c
+cc    -c -o create_database.o create_database.c
+cc    -c -o display_database.o display_database.c
+cc    -c -o insert_at_last.o insert_at_last.c
+cc    -c -o main.o main.c
+cc    -c -o save_database.o save_database.c
+cc    -c -o update_database.o update_database.c
+gcc -o out.exe file_linked_list.o search_database.o create_database.o display_database.o insert_at_last.o main.o save_database.o update_database.o
+
+
+emertxe@ubuntu:~/ECEP/Projects/DS$ ./out.exe file1.txt file3.txt file5.txt
+
+Successful : Inserting the file name : file1.txt into the the file linked list
+File : file3.txt is not having any contents in it
+Hence we are not adding into the file list
+File : file5.txt is not available
+Hence we are not adding into the file list
+
+Select your choice among following options:
+1. Create Database
+2. Display Database
+3. Update Database
+4. Search
+5. Save Database
+Enter your choice : 1   
+Successfull: Creation of database for file : file1.txt
+Do you want to continue ?
+Enter y/Y to continue (or) n/N to exit : y
+
+Select your choice among following options:
+1. Create Database
+2. Display Database
+3. Update Database
+4. Search
+5. Save Database
+Enter your choice : 2
+
+[index]  [word]   file_count file/s    File: file_name   word_count
+ [6]   [good]   1 file/s:       File: file1.txt    1
+ [7]   [hi]   1 file/s:       File: file1.txt    2
+ [7]   [hello]   1 file/s:       File: file1.txt    1
+ [7]   [hey]   1 file/s:       File: file1.txt    1
+ [22]   [we]   1 file/s:       File: file1.txt    1
+Do you want to continue ?
+Enter y/Y to continue (or) n/N to exit : y
+
+Select your choice among following options:
+1. Create Database
+2. Display Database
+3. Update Database
+4. Search
+5. Save Database
+Enter your choice : 4
+Enter the word to be searched: hi
+hi is found at 1 files 
+In a file : file1.txt 2 times
+
+Do you want to continue ?
+Enter y/Y to continue (or) n/N to exit : y
+
+Select your choice among following options:
+1. Create Database
+2. Display Database
+3. Update Database
+4. Search
+5. Save Database
+Enter your choice : 5
+Enter the filename: save.txt
+Database has been successfully saved to save.txt (Refer save.txt)
+Do you want to continue ?
+Enter y/Y to continue (or) n/N to exit : y
+
+Select your choice among following options:
+1. Create Database
+2. Display Database
+3. Update Database
+4. Search
+5. Save Database
+Enter your choice : 3
+Enter filename to update database: file2.txt
+Successfull: Creation of database for file : file2.txt
+Database has been successfully Updated.....
+Do you want to continue ?
+Enter y/Y to continue (or) n/N to exit : n
+
+*/

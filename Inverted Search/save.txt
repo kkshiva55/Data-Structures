@@ -1,0 +1,51 @@
+#[0]
+
+Word is [are]: File count is 2 
+    <----- In File/s: ----->
+File is file2.txt: Word count is 2
+File is file3.txt: Word count is 1
+---------------------------------------
+
+#[6]
+
+Word is [good]: File count is 2 
+    <----- In File/s: ----->
+File is file1.txt: Word count is 1
+File is file3.txt: Word count is 1
+---------------------------------------
+
+#[7]
+
+Word is [hi]: File count is 3 
+    <----- In File/s: ----->
+File is file1.txt: Word count is 2
+File is file2.txt: Word count is 2
+File is file3.txt: Word count is 3
+
+Word is [hello]: File count is 3 
+    <----- In File/s: ----->
+File is file1.txt: Word count is 1
+File is file2.txt: Word count is 1
+File is file3.txt: Word count is 3
+
+Word is [hey]: File count is 3 
+    <----- In File/s: ----->
+File is file1.txt: Word count is 1
+File is file2.txt: Word count is 1
+File is file3.txt: Word count is 3
+---------------------------------------
+
+#[22]
+
+Word is [we]: File count is 1 
+    <----- In File/s: ----->
+File is file1.txt: Word count is 1
+---------------------------------------
+
+#[24]
+
+Word is [you]: File count is 1 
+    <----- In File/s: ----->
+File is file2.txt: Word count is 1
+---------------------------------------
+
